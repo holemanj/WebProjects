@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="DnD.xsl"?>
+
+<BasicInfo>
+	<InherentQualities>
+		<InherentQuality>
+			<name>STR</name>
+			<value>12</value>
+		</InherentQuality>
+		<InherentQuality>
+			<name>DEX</name>
+			<value>10</value>
+		</InherentQuality>
+		<InherentQuality>
+			<name>CON</name>
+			<value>10</value>
+		</InherentQuality>
+		<InherentQuality>
+			<name>INT</name>
+			<value>9</value>
+		</InherentQuality>
+		<InherentQuality>
+			<name>Wis</name>
+			<value>11</value>
+		</InherentQuality>
+		<InherentQuality>
+			<name>Chr</name>
+			<value>8</value>
+		</InherentQuality>
+	</InherentQualities>
+</BasicInfo>

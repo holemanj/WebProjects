@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>RPG Character Sheets</title>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body>
+		<header>
+			<label for="system">Game type:</label>
+			<select id="system">
+				<option value="dnd5e" selected>D&D 5E</option>
+				<option value="dnd30">D&D 3E</option>
+				<option value="dnd35">D&D 3.5E</option>
+				<option value="pathfinder">Pathfinder</option>
+					<option value="pathfinder2">Pathfinder 2E</option>
+				<option value="gurps">GURPS</option>
+				<option value="2d20">Basic 2d20</option>
+				<option value="rolemaster">Rolemaster</option>
+				<option value="runequest">Rune Quest</option>
+			</select>
+		</header>
+		<main>
+			<section class="columns">
+				<section class="leftColumn">
+					<section class="attributes">
+						<section class="attribute">
+							<div class="attributeName attributeLabel">Name</div>
+							<div class="attributeScore attributeLabel">Score</div>
+							<div class="attributeBonus attributeLabel">Bonus</div>
+							<div class="attributeSaveProf attributeLabel">Prof?</div>
+							<div class="attributeSave attributeLabel">Save</div>
+						</section>
+						<section class="attribute">
+							<div class="attributeName">STR</div>
+							<div class="attributeScore">15</div>
+							<div class="attributeBonus">+2</div>
+							<div class="attributeSaveProf">
+								<input type="checkbox" disabled checked/>
+							</div>
+							<div class="attributeSave">+4</div>
+						</section>
+						<section class="attribute">
+							<div class="attributeName">DEX</div>
+							<div class="attributeScore"></div>
+							<div class="attributeBonus"></div>
+							<div class="attributeSaveProf"><input type="checkbox" disabled selected="true"/></div>
+							<div class="attributeSave"></div>
+						</section>
+						<section class="attribute">
+							<div class="attributeName">CON</div>
+							<div class="attributeScore"></div>
+							<div class="attributeBonus"></div>
+							<div class="attributeSaveProf"><input type="checkbox" disabled/></div>
+							<div class="attributeSave"></div>
+						</section>
+						<section class="attribute">
+							<div class="attributeName">INT</div>
+							<div class="attributeScore"></div>
+							<div class="attributeBonus"></div>
+							<div class="attributeSaveProf"><input type="checkbox" disabled/></div>
+							<div class="attributeSave"></div>
+						</section>
+						<section class="attribute">
+							<div class="attributeName">WIS</div>
+							<div class="attributeScore"></div>
+							<div class="attributeBonus"></div>
+							<div class="attributeSaveProf"><input type="checkbox" disabled/></div>
+							<div class="attributeSave"></div>
+						</section>
+						<section class="attribute">
+							<div class="attributeName">CHA</div>
+							<div class="attributeScore"></div>
+							<div class="attributeBonus"></div>
+							<div class="attributeSaveProf"><input type="checkbox" disabled/></div>
+							<div class="attributeSave"></div>
+						</section>
+					</section>
+				</section>
+				<section class="rightColumn">
+					<section class="skills" id="skillsection">
+						<label for="skillsection">Skills</label>
+						<section id="skillNames">
+							<section class="skill">
+								<div class="skillName">Acrobatics</div>
+								<div class="skillProf"><input type="checkbox" disabled checked/></div>
+								<div class="skillBonus">4</div>
+							</section>
+							<section class="skill">
+								<div class="skillName">Athletics</div>
+								<div class="skillProf"><input type="checkbox" disabled/></div>
+								<div class="skillBonus">4</div>
+							</section>
+							<section class="skill">
+								<div class="skillName">Arcana</div>
+								<div class="skillProf"><input type="checkbox" disabled/></div>
+								<div class="skillBonus">4</div>
+							</section>
+							<section class="skill">
+								<div class="skillName">Investigation</div>
+								<div class="skillProf"><input type="checkbox" disabled/></div>
+								<div class="skillBonus">4</div>
+							</section>
+							<section class="skill">
+								<div class="skillName">Perception</div>
+								<div class="skillProf"><input type="checkbox" disabled/></div>
+								<div class="skillBonus">4</div>
+							</section>
+						</section>
+					</section>
+				</section>
+			</section>
+			<section class="bottom">
+				Other things go here
+			</section>
+		</main>
+	</body>
+</html>
