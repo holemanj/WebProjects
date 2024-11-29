@@ -1,0 +1,67 @@
+/* clear browser default spacing */
+* {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+.clear {
+	clear:both;
+}
+
+header,nav,section,footer,aside,article {
+	display:block;
+}
+
+div.main_doc {
+	width:1000px;
+	margin:0 auto;
+}
+
+div#parent header h1 {
+	background:green;
+	text-align:center;
+	width:auto;
+}
+
+div#parent nav header h2 {
+	background:green;
+	text-align:center;
+	float:left;
+	width:auto;
+}
+
+div#parent nav ul li	{
+	float:left;
+	margin:10px 25px;
+}
+
+div#parent section article p:nth-child(odd){
+	color:red;
+	font-size:24px;
+}
+
+div#parent section article p:nth-child(even){
+	color:#ddaa33;
+	font-size:20px;
+}
+
+div#parent section article p:before{
+	content:"\"";
+}
+
+div#parent section article p:after{
+	content:"\"";
+}
+ /* float main section and aside section */
+ .main_section {
+	float:left;
+	width:auto;
+	padding:0px 2px 5px 0px;
+ }
+ .aside_nav {
+	float:right;
+ }
+ .page_footer {
+	clear:both;
+ }
